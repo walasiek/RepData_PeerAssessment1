@@ -1,5 +1,7 @@
 # Reproducible Research: Peer Assessment 1
 
+This is report was created by **Marcin Walas** as an assignment for the course MOOC
+*Reproducible Research*.
 
 ## Loading and preprocessing the data
 
@@ -95,6 +97,7 @@ sum(is.na(data$steps))
 ```
 
 The mising data for intervals was estimated by using mean of the appropriate interval.
+The mean was calculated and filled in using the following code:
 
 
 ```r
@@ -187,3 +190,6 @@ plot(avgStepsPerWeekdayOnlyWeekend$interval,
 ```
 
 ![](./PA1Walas_files/figure-html/unnamed-chunk-12-1.png) 
+
+
+Thank you for reading this report!

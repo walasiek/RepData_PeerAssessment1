@@ -5,6 +5,8 @@ output:
     keep_md: true
 ---
 
+This is report was created by **Marcin Walas** as an assignment for the course MOOC
+*Reproducible Research*.
 
 ## Loading and preprocessing the data
 
@@ -63,6 +65,7 @@ sum(is.na(data$steps))
 ```
 
 The mising data for intervals was estimated by using mean of the appropriate interval.
+The mean was calculated and filled in using the following code:
 
 ```{r,cache=TRUE}
 dataFill <- data
@@ -139,5 +142,7 @@ plot(avgStepsPerWeekdayOnlyWeekend$interval,
      xlab='Interval', 
      ylab='Average number. of steps', 
      main='weekends')
-
 ```
+
+
+Thank you for reading this report!
